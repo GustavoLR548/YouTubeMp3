@@ -1,7 +1,15 @@
 # Download videos from YouTube and convert them to MP3
 
+![escudo2](https://img.shields.io/badge/license-MIT-green)
+
 This Shell script allows you to download videos(and even playlists) from YouTube, and convert them
-to mp3. To use the script just simple run the script in the terminal using:
+to mp3. 
+
+**Required: Youtube-dl**
+
+## How to use 
+
+Run the script in the terminal using:
 
 ```
 ./download_mp3.sh {insert-video/playlist-url}
