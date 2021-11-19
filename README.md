@@ -5,7 +5,7 @@
 This Shell script allows you to download videos(and even playlists) from YouTube, and convert them
 to mp3. 
 
-**Required: Youtube-dl**
+**Required: Youtube-dl, ffmpeg**
 
 ## How to use 
 
