@@ -24,3 +24,7 @@ export DOWNLOAD_PATH_SCRIPT="insert/path/here"
 
 After that, for every use of this script(in the current terminal), all the videos will be download to the 
 specified path.
+
+### Credits
+
+Special thanks for my friend, [Rafael Amauri](https://github.com/RafaelAmauri), who helped me with this project.
