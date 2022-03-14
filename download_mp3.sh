@@ -8,5 +8,10 @@ else
 fi
 
 url="${1}"
+program="${2}"
 
-youtube-dl --extract-audio --audio-format mp3 --prefer-ffmpeg "${url}" -o "${DOWNLOAD_PATH_SCRIPT}/%(title)s.%(ext)s" 
+if [ "${program}" = "-yt-dlp" ]; then 
+    yt-dlp -f bestaudio --extract-audio --audio-format mp3 --prefer-ffmpeg "${url}" -o "${DOWNLOAD_PATH_SCRIPT}/%(title)s.%(ext)s"
+else 
+    youtube-dl -f bestaudio --extract-audio --audio-format mp3 --prefer-ffmpeg "${url}" -o "${DOWNLOAD_PATH_SCRIPT}/%(title)s.%(ext)s" 
+fi

@@ -7,6 +7,8 @@ to mp3.
 
 **Required: Youtube-dl, ffmpeg**
 
+**Optional: [Yt-dlp](https://github.com/yt-dlp/yt-dlp)**
+
 ## How to use 
 
 Run the script in the terminal using:
@@ -24,6 +26,16 @@ export DOWNLOAD_PATH_SCRIPT="insert/path/here"
 
 After that, for every use of this script(in the current terminal), all the videos will be download to the 
 specified path.
+
+## Yt-dlp
+
+If you want to download using yt-dlp, then use the same command as before, but adding -yt-dlp at the end
+of the command.
+
+Example:
+```
+./download_mp3.sh {insert-video/playlist-url} -yt-dlp 
+``` 
 
 ### Credits
 
