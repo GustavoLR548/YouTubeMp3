@@ -17,8 +17,8 @@ Run the script in the terminal using:
 ./download_mp3.sh {insert-video/playlist-url}
 ```
 
-You can also set a variable in bash, so your videos will be download on a specific directory, in order
-to use this feature, use the following command:
+You can also set a variable in bash, so your videos will be downloaded on a specific directory.
+To use this feature, use the following command:
 
 ```
 export DOWNLOAD_PATH_SCRIPT="insert/path/here"
